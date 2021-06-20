@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ChildComponent from './ChildComponent';
 
 export default class CycleUpdating extends Component {
 
@@ -28,7 +29,9 @@ export default class CycleUpdating extends Component {
     render() {
         console.log('render');
         return (
-            <div>
+            <div className='container my-5'>
+               {this.state.number === 1 ? <ChildComponent/> : ""}
+                
                 <button onClick={() => {
                    this.handleClick()
                 }}>Click me</button>
