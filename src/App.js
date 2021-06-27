@@ -1,5 +1,6 @@
 
 
+import Hook_UseState from "./Component/demoHook/Hook_UseState.jsx"
 import CycleMounting from "./Component/demoLifeCycle/CycleMounting.jsx"
 import CycleUpdating from "./Component/demoLifeCycle/CycleUpdating.jsx"
 import DemoPureComponent from "./Component/demoPureComponent/DemoPureComponent.jsx"
@@ -11,7 +12,8 @@ function App() {
       {/* <DemoPureComponent/> */}
       {/* <CycleMounting/> */}
       {/* <CycleUpdating/> */}
-      <CallbackFunction/>
+      {/* <CallbackFunction/> */}
+      <Hook_UseState/>
     </div>
   );
 }
