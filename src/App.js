@@ -9,6 +9,7 @@ import CycleUpdating from "./Component/demoLifeCycle/CycleUpdating.jsx"
 import DemoPureComponent from "./Component/demoPureComponent/DemoPureComponent.jsx"
 import CallbackFunction from './Component/ES6/CallbackFunction/CallbackFunction'
 import React_memo from './Component/demoHook/React_memo.jsx'
+import Hook_UseMemo from "./Component/demoHook/Hook_UseMemo.jsx"
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <Hook_UseState/> */}
       {/* <Hook_UseEffect/> */}
       {/* <React_memo/> */}
-      <Hook_UseCallBack/>
+      {/* <Hook_UseCallBack/> */}
+      <Hook_UseMemo/>
     </div>
   );
 }
