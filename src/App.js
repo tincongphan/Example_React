@@ -3,6 +3,7 @@
 import { memo } from "react"
 import Hook_UseEffect from "./Component/demoHook/Hook_UseEffect.jsx"
 import Hook_UseState from "./Component/demoHook/Hook_UseState.jsx"
+import Hook_UseCallBack from "./Component/demoHook/Hook_UseCallBack"
 import CycleMounting from "./Component/demoLifeCycle/CycleMounting.jsx"
 import CycleUpdating from "./Component/demoLifeCycle/CycleUpdating.jsx"
 import DemoPureComponent from "./Component/demoPureComponent/DemoPureComponent.jsx"
@@ -19,7 +20,8 @@ function App() {
       {/* <CallbackFunction/> */}
       {/* <Hook_UseState/> */}
       {/* <Hook_UseEffect/> */}
-      <React_memo/>
+      {/* <React_memo/> */}
+      <Hook_UseCallBack/>
     </div>
   );
 }
