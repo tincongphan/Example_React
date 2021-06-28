@@ -10,6 +10,8 @@ import DemoPureComponent from "./Component/demoPureComponent/DemoPureComponent.j
 import CallbackFunction from './Component/ES6/CallbackFunction/CallbackFunction'
 import React_memo from './Component/demoHook/React_memo.jsx'
 import Hook_UseMemo from "./Component/demoHook/Hook_UseMemo.jsx"
+import Hook_UseRef from "./Component/demoHook/Hook_UseRef_1.0.jsx"
+import Hook_UseRef_ from "./Component/demoHook/Hook_UseRef_1.1.jsx"
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
       {/* <Hook_UseEffect/> */}
       {/* <React_memo/> */}
       {/* <Hook_UseCallBack/> */}
-      <Hook_UseMemo/>
+      {/* <Hook_UseMemo/> */}
+      {/* <Hook_UseRef/> */}
+      <Hook_UseRef_/>
     </div>
   );
 }
